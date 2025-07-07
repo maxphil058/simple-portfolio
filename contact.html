@@ -1,0 +1,51 @@
+<!--
+Name: Phil Maxwell-Mgbudem
+File: contact.html
+Student Number:041166550
+Course: CST8285_312
+Date: 2025-July-06
+Description: This is my contact page.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Phil Maxwell-Mgbudem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h1>Contact Me</h1>
+            <form id="contactForm" novalidate>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="thankYouMessage" style="display:none;" aria-live="polite"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Phil Maxwell-Mgbudem. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 

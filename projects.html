@@ -1,0 +1,70 @@
+<!--
+Name: Phil Maxwell-Mgbudem
+File: projects.html
+Student Number:041166550
+Course: CST8285_312
+Date: 2025-July-06
+Description: This is my projects page.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Phil Maxwell-Mgbudem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="projects">
+            <h1>Projects</h1>
+            <div class="project-gallery">
+                <button id="prevBtn" aria-label="Previous project">Previous</button>
+                <div class="project" id="project1">
+                    <img src="images/moviefinder.PNG" alt="Movie Finder & Streaming App screenshot">
+                    <h2>Movie Finder & Streaming App</h2>
+                    <p><strong>Date:</strong> 2024</p>
+                    <p><strong>Technologies:</strong> React, JavaScript, Firebase</p>
+                    <p>Searches movies using API and supports real-time updates.</p>
+                </div>
+                <div class="project" id="project2" style="display:none;">
+                    <img src="images/chat-app.jpeg" alt="Chat App screenshot">
+                    <h2>Chat App</h2>
+                    <p><strong>Date:</strong> 2024</p>
+                    <p><strong>Technologies:</strong> React, Firebase, Tailwind</p>
+                    <p>CRUD with real-time sync and clean UI.</p>
+                </div>
+                <div class="project" id="project3" style="display:none;">
+                    <img src="images/portfolio.png" alt="Personal Portfolio Website screenshot">
+                    <h2>Personal Portfolio Website</h2>
+                    <p><strong>Date:</strong> 2025</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <p>Hosted resume and project links.</p>
+                </div>
+                <div class="project" id="project4" style="display:none;">
+                    <img src="images/ecommerce.png" alt="Simple E-Commerce Prototype screenshot">
+                    <h2>Simple E-Commerce Prototype</h2>
+                    <p><strong>Date:</strong> 2024</p>
+                    <p><strong>Technologies:</strong> JavaScript, LocalStorage</p>
+                    <p>Built shopping cart functionality with fake products.</p>
+                </div>
+                <button id="nextBtn" aria-label="Next project">Next</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Phil Maxwell-Mgbudem. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
