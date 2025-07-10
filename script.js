@@ -1,11 +1,11 @@
-// script.js - Portfolio Website JavaScript
 
 // Name: Phil Maxwell-Mgbudem
 // File: script.js
 // Student Number:041166550
 // Course: CST8285_312
 // Date: 2025-July-06
-// Description: This is my script file.
+// Description: This is my script file for my portfolio website which manages the project 
+// gallery navigation in the projects.html page.
 
 // Project Gallery Navigation (projects.html)
 document.addEventListener('DOMContentLoaded', function () {
@@ -36,32 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
         showProject(currentProject);
     }
 
-    // Contact Form Validation (contact.html)
-    const contactForm = document.getElementById('contactForm');
-    const thankYouMessage = document.getElementById('thankYouMessage');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function (e) {
-            e.preventDefault();
-            const name = document.getElementById('fullName').value.trim();
-            const email = document.getElementById('email').value.trim();
-            let valid = true;
-            if (!name) {
-                document.getElementById('fullName').style.borderColor = 'red';
-                valid = false;
-            } else {
-                document.getElementById('fullName').style.borderColor = '#bbb';
-            }
-            if (!email) {
-                document.getElementById('email').style.borderColor = 'red';
-                valid = false;
-            } else {
-                document.getElementById('email').style.borderColor = '#bbb';
-            }
-            if (valid) {
-                contactForm.style.display = 'none';
-                thankYouMessage.textContent = 'Thank you for contacting me!';
-                thankYouMessage.style.display = 'block';
-            }
-        });
-    }
+
+    
+  
 }); 
