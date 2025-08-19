@@ -1,6 +1,6 @@
 # Phil Maxwell-Mgbudem - Personal Portfolio
 
-This is my personal portfolio website for CST8285 Assignment 1.
+This is my personal portfolio website for an Assignment.
 
 ## Features
 
