@@ -1,4 +1,4 @@
-# Phil Maxwell-Mgbudem - Personal Portfolio
+# Phil Maxwell-Mgbudem - Personal Portfolio Assignment(Vanilla JS)
 
 This is my personal portfolio website for an Assignment.
 
